@@ -2,6 +2,10 @@ import React from 'react';
 import './BookDetails.css';
 
 const BookDetails = ({ book }) => {
+  const handlePreorder = () => {
+    alert('Merci pour votre intérêt ! Le livre sera bientôt disponible. Nous vous contacterons dès sa sortie.');
+  };
+
   return (
     <div className="book-details">
       <div className="book-header">
@@ -24,7 +28,7 @@ const BookDetails = ({ book }) => {
           </div>
         </div>
         
-        <button className="preorder-button">
+        <button className="preorder-button" onClick={handlePreorder}>
           Pré-commander
         </button>
       </div>
