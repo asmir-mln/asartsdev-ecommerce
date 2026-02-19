@@ -2,6 +2,35 @@
 
 « Projet e-commerce AsartsDev » - Plateforme de vente de livres illustrés pour enfants
 
+## 🚀 Démarrage Rapide / Quick Start
+
+Pour voir le site immédiatement :
+
+```bash
+# 1. Installer les dépendances
+npm install
+
+# 2. Démarrer le site en mode développement
+npm start
+```
+
+Le site s'ouvrira automatiquement dans votre navigateur à [http://localhost:3000](http://localhost:3000)
+
+**Ou pour la version production :**
+
+```bash
+# 1. Installer les dépendances
+npm install
+
+# 2. Créer le build de production
+npm run build
+
+# 3. Voir le site
+npm run serve
+```
+
+---
+
 ## 📚 Description
 
 Cette plateforme e-commerce présente des livres romans illustrés pour enfants, basés sur des récits d'après des souvenirs personnels. Le projet fait partie d'une autobiographie en cours d'écriture et sera bientôt disponible en format livre et sur internet.
@@ -44,6 +73,57 @@ npm run build
 ```
 
 Cela créera une version optimisée dans le dossier `build/`.
+
+### Voir le site en production locale
+
+Après avoir créé le build de production, vous pouvez voir le site avec :
+
+```bash
+npm run serve
+```
+
+Le site sera accessible à : [http://localhost:3000](http://localhost:3000)
+
+## 🌐 Déploiement
+
+### Option 1 : Déploiement rapide (Recommandé)
+
+#### GitHub Pages
+```bash
+npm run build
+# Puis déployez le contenu du dossier build/ sur GitHub Pages
+```
+
+#### Netlify
+1. Connectez votre repository GitHub à Netlify
+2. Configuration de build :
+   - Build command: `npm run build`
+   - Publish directory: `build`
+3. Déployez !
+
+#### Vercel
+```bash
+npm install -g vercel
+npm run build
+vercel --prod
+```
+
+### Option 2 : Serveur statique local
+
+Pour voir le site localement après le build :
+
+```bash
+# Installer les dépendances
+npm install
+
+# Créer le build
+npm run build
+
+# Démarrer le serveur
+npm run serve
+```
+
+Le site sera accessible à [http://localhost:3000](http://localhost:3000)
 
 ## 📦 Structure du Projet
 
