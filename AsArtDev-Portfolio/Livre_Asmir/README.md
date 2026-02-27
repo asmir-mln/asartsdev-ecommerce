@@ -1,15 +1,7 @@
-# Livre_Asmir
+# Livre "Les trois vies de Asmir"
 
-Manuscrit et illustrations du livre *Les 3 Vies d'Asmir*.
-
-## Fichiers
-
-| Fichier | Description |
-|---|---|
-| `Les_3_Vies_Asmir.pdf` | Manuscrit complet du livre |
-| `Illustrations/` | Illustrations double page (optionnel) |
-
-## Note
-
-Ajouter le fichier `Les_3_Vies_Asmir.pdf` dans ce dossier avant de partager le portfolio.  
-Les illustrations peuvent être déposées dans le sous-dossier `Illustrations/`.
+Contenu :
+- PDF final avec couverture et logo AsArt'sDev
+- Illustrations double pages : Sheitan, aides bienveillantes, âne
+- Texte complet des trois vies
+- Pages de remerciements et signatures
