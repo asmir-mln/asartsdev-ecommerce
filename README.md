@@ -1,6 +1,13 @@
-# AsartsDev E-commerce - Livres Illustrés pour Enfants
+# AsArt'sDev Portfolio
 
-« Projet e-commerce AsartsDev » - Plateforme de vente de livres illustrés pour enfants
+Ce dépôt contient :
+
+- Livre "Les trois vies de Asmir" (Livre_Asmir/)
+- CV professionnel et portfolio (CV/)
+- Portfolio pour demande de subvention (Portfolio_Subvention/)
+- Projets IA et code source (Projets_IA/)
+
+Toutes les ressources sont prêtes pour consultation, envoi, édition ou GitHub.
 
 ## 🚀 Démarrage Rapide / Quick Start
 

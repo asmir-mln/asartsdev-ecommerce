@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="header-content">
-          <h1 className="site-title">📚 AsartsDev E-commerce</h1>
-          <p className="site-tagline">Livres Illustrés pour Enfants</p>
+          <h1 className="site-title">📚 AsArt'sDev Portfolio</h1>
+          <p className="site-tagline">Livre · CV · Portfolio · Projets IA</p>
         </div>
       </header>
 
@@ -54,7 +54,7 @@ function App() {
       </main>
 
       <footer className="App-footer">
-        <p>&copy; 2024 AsartsDev E-commerce - Tous droits réservés</p>
+        <p>&copy; 2024 AsArt'sDev Portfolio - Tous droits réservés</p>
         <p>Livre bientôt disponible</p>
       </footer>
     </div>
