@@ -1,11 +1,11 @@
-// Données du livre illustré pour enfants
-// "Récit d'après un souvenir" - Histoire basée sur des souvenirs personnels
+// Données du livre illustré
+// "Les trois vies de Asmir" - Roman autobiographique illustré
 
 export const bookData = {
-  title: "Souvenirs d'Enfance",
-  subtitle: "Un récit illustré d'après mes souvenirs",
-  author: "Auteur AsartsDev",
-  description: "Un livre roman illustré pour enfant, écrit d'après un souvenir. Publié lors de l'écriture d'une autobiographie, bientôt disponible en livre et sur internet.",
+  title: "Les trois vies de Asmir",
+  subtitle: "Roman autobiographique illustré",
+  author: "AsArt'sDev",
+  description: "Roman autobiographique illustré retraçant les trois grandes périodes de la vie d'Asmir. Bientôt disponible en livre et sur internet.",
   status: "Bientôt disponible",
   price: "14.99€",
   pages: [
