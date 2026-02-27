@@ -17,9 +17,9 @@ function App() {
       <main className="App-main">
         <section className="hero-section">
           <div className="hero-content">
-            <h2 className="hero-title">✨ Découvrez Notre Histoire Illustrée ✨</h2>
+            <h2 className="hero-title">✨ Les trois vies de Asmir ✨</h2>
             <p className="hero-description">
-              Un récit d'après un souvenir, publié lors de l'écriture d'une autobiographie
+              Un récit illustré en trois actes — publié avec le logo AsArt'sDev
             </p>
           </div>
         </section>
