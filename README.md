@@ -43,6 +43,17 @@ Cette plateforme e-commerce présente des livres romans illustrés pour enfants,
 - 🌐 **Disponible en Ligne** : Accessible via navigateur web
 - 📱 **Design Responsive** : Optimisé pour tous les appareils
 
+### AsArt'sDev Portfolio
+
+Ce dépôt contient également le portfolio complet AsArt'sDev :
+
+| Dossier | Contenu |
+|---------|---------|
+| `Livre_Asmir/` | Livre "Les trois vies de Asmir" |
+| `CV/` | CV professionnel et portfolio |
+| `Portfolio_Subvention/` | Portfolio pour demande de subvention |
+| `Projets_IA/` | Projets IA et code source |
+
 ## 🚀 Installation
 
 ### Prérequis
@@ -136,13 +147,20 @@ asartsdev-ecommerce/
 │   │   ├── BookCarousel.js # Carrousel d'illustrations
 │   │   ├── BookCarousel.css
 │   │   ├── BookDetails.js  # Détails du livre
-│   │   └── BookDetails.css
+│   │   ├── BookDetails.css
+│   │   ├── Portfolio.js    # Section portfolio AsArt'sDev
+│   │   └── Portfolio.css
 │   ├── data/
-│   │   └── bookData.js     # Données du livre (pages, textes, illustrations)
+│   │   ├── bookData.js     # Données du livre (pages, textes, illustrations)
+│   │   └── portfolioData.js # Données du portfolio
 │   ├── App.js              # Composant principal
 │   ├── App.css
 │   ├── index.js            # Point d'entrée
 │   └── index.css
+├── Livre_Asmir/            # Ressources du livre "Les trois vies de Asmir"
+├── CV/                     # CV professionnel et portfolio
+├── Portfolio_Subvention/   # Dossier de demande de subvention
+├── Projets_IA/             # Projets IA et code source
 ├── package.json
 └── README.md
 ```

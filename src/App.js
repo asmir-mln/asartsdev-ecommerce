@@ -1,7 +1,9 @@
 import React from 'react';
 import BookDetails from './components/BookDetails';
 import BookCarousel from './components/BookCarousel';
+import Portfolio from './components/Portfolio';
 import { bookData } from './data/bookData';
+import { portfolioData } from './data/portfolioData';
 import './App.css';
 
 function App() {
@@ -51,6 +53,8 @@ function App() {
             <p>Accessible sur internet et en format livre</p>
           </div>
         </section>
+
+        <Portfolio sections={portfolioData.sections} />
       </main>
 
       <footer className="App-footer">
