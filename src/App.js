@@ -1,16 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import BookDetails from './components/BookDetails';
 import BookCarousel from './components/BookCarousel';
+import CV from './components/CV';
 import { bookData } from './data/bookData';
 import './App.css';
 
 function App() {
+  const [showCV, setShowCV] = useState(false);
+
+  if (showCV) {
+    return <CV onBack={() => setShowCV(false)} />;
+  }
+
   return (
     <div className="App">
       <header className="App-header">
         <div className="header-content">
           <h1 className="site-title">📚 AsartsDev E-commerce</h1>
           <p className="site-tagline">Livres Illustrés pour Enfants</p>
+          <button className="cv-nav-button" onClick={() => setShowCV(true)}>
+            👤 CV Professionnel
+          </button>
         </div>
       </header>
 
