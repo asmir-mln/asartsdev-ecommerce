@@ -1,7 +1,9 @@
 import React from 'react';
 import BookDetails from './components/BookDetails';
 import BookCarousel from './components/BookCarousel';
+import AIProjects from './components/AIProjects';
 import { bookData } from './data/bookData';
+import { aiProjects } from './data/aiProjectsData';
 import './App.css';
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
           </p>
           <BookCarousel pages={bookData.pages} />
         </section>
+
+        <AIProjects projects={aiProjects} />
 
         <section className="info-section">
           <div className="info-card">
