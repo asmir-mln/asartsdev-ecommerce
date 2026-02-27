@@ -1,6 +1,7 @@
 import React from 'react';
 import BookDetails from './components/BookDetails';
 import BookCarousel from './components/BookCarousel';
+import CV from './components/CV';
 import { bookData } from './data/bookData';
 import './App.css';
 
@@ -32,6 +33,14 @@ function App() {
             Parcourez les pages illustrées de notre livre en utilisant les flèches
           </p>
           <BookCarousel pages={bookData.pages} />
+        </section>
+
+        <section className="cv-page-section">
+          <h2 className="section-title">📄 CV Professionnel – Asmir Milianni</h2>
+          <p className="section-description">
+            Consultez et téléchargez le CV au format PDF avec compétences, liens cliquables et logo AsArt'sDev
+          </p>
+          <CV />
         </section>
 
         <section className="info-section">

@@ -123,6 +123,10 @@ body {
   line-height: 1.6;
 }
 
+.cv-page-section {
+  margin: 4rem 0;
+}
+
 .App-footer {
   background: #2c3e50;
   color: white;
